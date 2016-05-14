@@ -19,5 +19,8 @@
         "post-install-cmd": [
             "CubicMushroom\\ProjectBootstrap\\Composer\\ScriptHandler::initialiseProject"
         ]
+    },
+    "require-dev": {
+        "composer/composer": "^1.1"
     }
 }
