@@ -1,0 +1,15 @@
+{
+    "name": "cubicmushroom/project-bootstrap",
+    "description": "Package for bootstrapping projects from",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Griffiths",
+            "email": "toby@cubicmushroom.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
