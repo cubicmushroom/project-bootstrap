@@ -22,6 +22,6 @@ class ScriptHandler
      */
     public static function initialiseProject(Event $event)
     {
-        echo 'Hello world!';
+        $event->getIO()->write('Hello world');
     }
 }
