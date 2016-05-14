@@ -11,5 +11,13 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {}
+    "require": {},
+    "autoload-dev": {
+        "psr-4": { "CubicMushroom\\ProjectBootstrap\\": "src/" }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "CubicMushroom\\ProjectBootstrap\\Composer\\ScriptHandler::initialiseProject"
+        ]
+    }
 }
